@@ -1,0 +1,2 @@
+worker: python3 bot.py
+web: python3 web_admin/app.py

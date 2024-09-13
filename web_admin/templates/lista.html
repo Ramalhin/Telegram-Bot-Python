@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Canais para Aprovação</title>
+</head>
+<body>
+    <h1>Lista de Canais para Aprovação</h1>
+    <ul>
+        {% for canal in canais %}
+            <li>
+                {{ canal.nome }} - {{ canal.link }}
+                <a href="/aprovar/{{ canal._id }}">Aprovar</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
