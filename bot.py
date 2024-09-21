@@ -8,7 +8,7 @@ from threading import Thread
 
 # Configurações iniciais
 API_KEY = 'SUA_TELEGRAM_BOT_API_KEY'
-MONGO_URI = 'mongodb+srv://ramalho-user1:<kC3W4Yq8ZG9ycaW>@cluster0.jkfhm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGO_URI = 'mongodb+srv://seu_usuario:<sua_senha>@cluster0.jkfhm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 MERCADO_PAGO_ACCESS_TOKEN = 'SEU_ACCESS_TOKEN_DO_MERCADO_PAGO'
 
 # Configurando o MongoDB
